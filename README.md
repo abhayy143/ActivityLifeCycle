@@ -47,7 +47,7 @@ It’s important to note if an activity is completely obscured by another activi
 
 At this point the system is free to garbage collect the activity data to free up space.
 
-For more reference checkout the photograph below :- 
+**For more reference checkout the photograph below** :- 
 
 ![activity lifecycle](https://user-images.githubusercontent.com/53009878/134226573-b2cfdd3b-d375-43eb-9103-e950ad200c09.jpg)
 
