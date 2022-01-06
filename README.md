@@ -17,31 +17,31 @@ This method is the first to be called when an activity is first created. This is
 
 If onCreate() includes a bundle, we can restore the app's state from the data in the bundle.
 
-onStart()
+*onStart()
 This is called immediately after onCreate(Bundle). It will make the app visible to the user.
  
 
 onStart() can be called as often as needed during an activity lifecycle
 
-onResume()
+*onResume()
 This is the stage where your users can finally interact with your application.
  
 
 Yay! Our activity finally running.
 
-onPause()
+*onPause()
 This is called when another activity comes into the foreground.
  
 
 Our other activity may still be visible in the background, however we won’t be able to interact with it. An example could be when we open a dialog.
 
-onStop()
+*onStop()
 When this gets executed you won't be able to see your activity or interact with it.
  
 
 It’s important to note if an activity is completely obscured by another activity, it is stopped. It still retains all state and member information. But it is no longer visible to the user so its window is hidden.
 
-onDestroy()
+*onDestroy()
 This is called where we reach the final stage of an activity. There's no going back.
  
 
