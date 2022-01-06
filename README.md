@@ -8,7 +8,7 @@ Each stage is responsible for a certain task. When you open an app or click on a
 When another activity is called, onPause() and onStop() will be also called on the first activity.
 The onDestroy() removes the app altogether. It is invoked when
 
-1. You call finish() on the current activity <br />
+1. You call finish() on the current activity <br/> 
 2.Your phone is short in resources (e.g., battery, memory).
 
 onCreate(Bundle)
